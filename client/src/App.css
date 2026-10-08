@@ -68,9 +68,7 @@ button:disabled {
 }
 
 
-/* =====================================================
-   LOGIN PAGE
-   ===================================================== */
+
 
 .auth-page {
     min-height: 100vh;
@@ -130,7 +128,6 @@ button:disabled {
 }
 
 
-/* ---------- LOGIN BRAND ---------- */
 
 .auth-brand {
     display: flex;
@@ -169,7 +166,6 @@ button:disabled {
 }
 
 
-/* ---------- LOGIN HEADING ---------- */
 
 .auth-heading {
     margin-bottom: 34px;
@@ -204,7 +200,7 @@ button:disabled {
 }
 
 
-/* ---------- LOGIN FORM ---------- */
+
 
 .auth-form {
     width: 100%;
@@ -374,9 +370,7 @@ button:disabled {
 }
 
 
-/* =====================================================
-   CHAT
-   ===================================================== */
+
 
 .chat-page {
     min-height: 100vh;
@@ -720,9 +714,7 @@ button:disabled {
     padding-right: 12px;
 }
 
-/* =========================================
-   ОТВЕТЫ БОТА / НЕЙРОНКИ
-   ========================================= */
+
 
 .message-row.bot .message-avatar {
     background: #f0efff;
@@ -747,7 +739,7 @@ button:disabled {
 }
 
 
-/* ---------- REACTIONS ---------- */
+
 
 .reaction-trigger {
     position: absolute;
@@ -851,7 +843,7 @@ button:disabled {
 }
 
 
-/* ---------- SYSTEM MESSAGES ---------- */
+
 
 .system-message {
     width: 100%;
@@ -862,7 +854,7 @@ button:disabled {
     margin: 7px 0;
     color: #939bad;
 
-    /* Немного крупнее обычного служебного текста */
+   
     font-size: 13px;
     font-weight: 500;
 }
@@ -884,7 +876,7 @@ button:disabled {
 }
 
 
-/* ---------- MESSAGE FORM ---------- */
+
 
 .message-form {
     min-height: 80px;
@@ -959,9 +951,7 @@ button:disabled {
 }
 
 
-/* =====================================================
-   ADMIN LOGIN
-   ===================================================== */
+
 
 .admin-login-page {
     min-height: 100vh;
@@ -1182,9 +1172,6 @@ button:disabled {
 }
 
 
-/* =====================================================
-   ADMIN PAGE
-   ===================================================== */
 
 .admin-page {
     min-height: 100vh;
@@ -1313,7 +1300,7 @@ button:disabled {
     font-size: 14px;
     line-height: 1.6;
 
-    /* Не позволяем ! отрываться от предыдущего текста */
+    
     white-space: nowrap;
 }
 
@@ -1670,9 +1657,6 @@ button:disabled {
 }
 
 
-/* =====================================================
-   ANIMATION
-   ===================================================== */
 
 @keyframes spin {
     to {
@@ -1681,9 +1665,7 @@ button:disabled {
 }
 
 
-/* =====================================================
-   RESPONSIVE
-   ===================================================== */
+
 
 @media (max-width: 800px) {
     .auth-card,

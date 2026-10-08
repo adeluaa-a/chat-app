@@ -19,9 +19,8 @@ function Admin() {
     const [newCommand, setNewCommand] = useState("");
     const [newPrompt, setNewPrompt] = useState("");
 
-    // =====================================================
     // ЗАГРУЗКА КОМАНД
-    // =====================================================
+    
 
     async function loadCommands(currentToken = token) {
         if (!currentToken) {
@@ -68,9 +67,9 @@ function Admin() {
         }
     }, [token]);
 
-    // =====================================================
+    
     // ВХОД
-    // =====================================================
+   
 
     async function handleLogin(event) {
         event.preventDefault();
@@ -119,9 +118,9 @@ function Admin() {
         }
     }
 
-    // =====================================================
+   
     // ОБНОВЛЕНИЕ КОМАНДЫ
-    // =====================================================
+   
 
     function updateCommand(id, field, value) {
         setCommands((prev) =>
@@ -136,10 +135,9 @@ function Admin() {
         );
     }
 
-    // =====================================================
+    
     // СОХРАНЕНИЕ
-    // =====================================================
-
+    
     async function handleSaveCommand(command) {
         if (
             !command.command.trim() ||
@@ -193,9 +191,9 @@ function Admin() {
         }
     }
 
-    // =====================================================
+    
     // УДАЛЕНИЕ
-    // =====================================================
+
 
     async function handleDeleteCommand(id) {
         const confirmed = window.confirm(
@@ -238,9 +236,9 @@ function Admin() {
         }
     }
 
-    // =====================================================
+    
     // ДОБАВЛЕНИЕ
-    // =====================================================
+    
 
     async function handleAddCommand(event) {
         event.preventDefault();
@@ -297,9 +295,9 @@ function Admin() {
         }
     }
 
-    // =====================================================
+    
     // ВЫХОД
-    // =====================================================
+    
 
     function handleLogout() {
         localStorage.removeItem("adminToken");
@@ -307,9 +305,9 @@ function Admin() {
         setCommands([]);
     }
 
-    // =====================================================
+    
     // LOGIN
-    // =====================================================
+  
 
     if (!token) {
         return (
@@ -414,10 +412,9 @@ function Admin() {
         );
     }
 
-    // =====================================================
+    
     // ADMIN PANEL
-    // =====================================================
-
+    
     return (
         <div className="admin-page">
             <header className="admin-header">
